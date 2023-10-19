@@ -2,7 +2,7 @@ import { loadStripe } from "@stripe/stripe-js";
 import { Elements } from "@stripe/react-stripe-js";
 import PaymentForm from "./PaymentForm";
 
-const PUBLIC_KEY = "pk_test_51NwpSpI3KnnmTNw6DMWSiOCBO5n9WNCQRyoRvuhs9Fh31Lfh7yh3YRt0ZYmApKv2c6ZrA7yKMPD1M8xz6m6fTB9N00vE780mJk";
+const PUBLIC_KEY = "pk_test_51O2U8QBXULjC2V7jB8tyy5vU0Tdv5f49AuTVy8CI2M8VkE6zx2rQwAjgFkanwWKZES2iN3OvbTcN4X89RdFP2OAA000qWymIsD";
 const stripePromise = loadStripe(PUBLIC_KEY);
 
 const StripeContainer = () => {
