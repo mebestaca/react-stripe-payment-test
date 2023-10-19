@@ -8,7 +8,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Test Store</h1>
+      <h1>Plunger Store</h1>
       {
         showItem ? 
         <StripeContainer/> :
